@@ -12,13 +12,12 @@ async function handlePress() {
   }
 }
 
-const Controls = () => {
-  return (
-    <Button
-      title="Start"
-      onPress={handlePress}
-    />
-  );
-}
+const Controls = () => (
+  <Button
+    title="Start"
+    onPress={handlePress}
+  />
+);
+
 
 export default Controls;
