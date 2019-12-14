@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Button, Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { Switch, Text, View } from 'react-native';
 import { Audio } from 'expo-av';
 
 const soundObject = new Audio.Sound();
@@ -7,11 +7,23 @@ const soundObject = new Audio.Sound();
 const Controls = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
+  useEffect(() => {
+    async function loadSound() {
+      await soundObject.loadAsync(require('../assets/shh.m4a'));
+      soundObject.setIsLoopingAsync(true);
+    }
+    loadSound();
+  }, []);
+
   async function handlePress() {
     try {
       setIsPlaying(!isPlaying);
-      await soundObject.loadAsync(require('../assets/shh.m4a'));
-      await soundObject.playAsync();
+
+      if (!isPlaying) {
+        await soundObject.playAsync();
+      } else {
+        await soundObject.pauseAsync();
+      }
     } catch (error) {
       console.log(error);
     }
@@ -19,14 +31,12 @@ const Controls = () => {
 
   return (
     <View>
-    <Text>{isPlaying ? 'on' : 'off'}</Text>
-    <Button
-      title="Start"
-      onPress={handlePress}
-    />
+      <Switch
+        onValueChange={handlePress}
+        value={isPlaying}
+      />
   </View>
   );
 }
-
 
 export default Controls;
