@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.mm \
+  /Users/aschachter/Development/shh-app/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Folly/folly/Optional.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Folly/folly/Portability.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Folly/folly/CPortability.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Folly/folly/Traits.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Folly/folly/Utility.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h

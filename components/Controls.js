@@ -1,28 +1,41 @@
 import React, { useEffect, useState } from 'react';
 import { Switch, Text, View } from 'react-native';
 import { Audio } from 'expo-av';
+import Sound from 'react-native-sound';
 
-const soundObject = new Audio.Sound();
+// Enable playback in silence mode
+Sound.setCategory('Playback');
+
+// Load the sound file from the app bundle.
+const shhSound = new Sound('shh.m4a', Sound.MAIN_BUNDLE, (error) => {
+  if (error) {
+    console.log('failed to load the sound', error);
+    return;
+  }
+  // loaded successfully
+  console.log('duration in seconds: ' + shhSound.getDuration() + 'number of channels: ' + shhSound.getNumberOfChannels());
+  shhSound.setNumberOfLoops(-1);
+});
 
 const Controls = () => {
   const [isPlaying, setIsPlaying] = useState(false);
 
-  useEffect(() => {
-    async function loadSound() {
-      await soundObject.loadAsync(require('../assets/shh.m4a'));
-      soundObject.setIsLoopingAsync(true);
-    }
-    loadSound();
-  }, []);
+  // useEffect(() => {
+  //   async function loadSound() {
+  //     await soundObject.loadAsync(require('../assets/shh.m4a'));
+  //     soundObject.setIsLoopingAsync(true);
+  //   }
+  //   loadSound();
+  // }, []);
 
-  async function handlePress() {
+  function handlePress() {
     try {
       setIsPlaying(!isPlaying);
 
       if (!isPlaying) {
-        await soundObject.playAsync();
+        shhSound.play();
       } else {
-        await soundObject.pauseAsync();
+        shhSound.pause();
       }
     } catch (error) {
       console.log(error);
@@ -35,7 +48,7 @@ const Controls = () => {
         onValueChange={handlePress}
         value={isPlaying}
       />
-  </View>
+    </View>
   );
 }
 

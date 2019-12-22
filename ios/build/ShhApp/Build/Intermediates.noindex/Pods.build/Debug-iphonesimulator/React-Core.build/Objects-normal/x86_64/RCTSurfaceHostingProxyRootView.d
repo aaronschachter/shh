@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceHostingProxyRootView.mm \
+  /Users/aschachter/Development/shh-app/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceHostingProxyRootView.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTRootView.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTBridge.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceHostingView.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTSurfaceDelegate.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTSurfaceStage.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTSurfaceSizeMeasureMode.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/RCTPerformanceLogger.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/RCTRootContentView.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTView.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTComponent.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/RCTRootViewDelegate.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Base/Surface/RCTSurface.h \
+  /Users/aschachter/Development/shh-app/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/aschachter/Development/shh-app/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h
